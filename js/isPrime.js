@@ -8,4 +8,5 @@ const isPrime = function ( arg ) {
     }
   }
   return true;
+
 }
