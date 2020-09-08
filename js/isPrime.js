@@ -7,6 +7,16 @@ const isPrime = function ( arg ) {
       return false;
     }
   }
-  return true;
 
+  let x = 6 * i - 1;
+  let y = 6 * i + 1;
+
+  while ( i < math.sqrt( arg ) ) {
+    if ( arg % x === 0 || arg % y == 0 ) {
+      return false;
+
+    }
+    return true;
+
+  }
 }
